@@ -1,0 +1,305 @@
+@font-face {      
+font-family: "Sitka";      
+src: url('"../fonts/sitka-small-599.ttf"') format('truetype'), url('"../fonts/sitka-small-652.ttf"') format('truetype'),
+url('"../fonts/sitka-small-815.ttf"') format('truetype');    
+}
+
+body{
+	font-family: "Sitka", sans-serif;
+}
+
+.freshcoffeelogo{
+	width: 85px;
+	margin-left: 40%;
+}
+
+.navbar{
+	border-radius: 65px;
+}
+
+.bg-light{
+	background-color: #FFF8DD !important;
+}
+
+.nav-link{
+	font-size: 20px;
+	font-family: 'Sitka Subheading Semibold';
+	color: #918763;
+}
+.nav-item i{
+	font-size: 35px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+header{
+	position: absolute;
+	width: 100%;
+	margin-top: 40px;
+	background-color: #A79C72;
+}
+
+#color{
+	background-color: #A79C72;
+	padding: 100px;
+}
+
+.ms-auto{
+	margin-right: 3%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+.card{
+	padding: 3%;
+	border-color: #6B5141;
+	border-style: solid;
+	border-width: 2px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.redondeado {
+text-align: left;
+border-radius: 5px;
+border-color: #6B5141;
+width: 73% !important;
+padding-left: 3%;
+font-family: "Sitka Text ";
+font-size: 17px;
+	border-style: solid;
+}
+.cafe{
+	background-color: #6B5141;
+	min-height: 530px;
+}
+.card-title{
+	color: #FFFFFF;
+	font-family:"Sitka Subheading Semibold";
+	font-size: 28px;
+}
+.card-cafe{
+	color:#FFFFFF;
+	font-family: "Sitka Text";
+	font-size: 15px;
+	text-decoration: underline;
+	padding-top: 1%;
+}
+.btn-primary{
+	background-color: #FFFFFF;
+	text-align-last: center;
+}
+/*.pequeño{
+	text-align: left;
+border-radius: 5px;
+border-color: #6B5141;
+width: 50% !important;
+padding-left: 3%;
+font-family: "Sitka Text ";
+font-size: 17px;
+	border-style: solid;
+}*/
+.card-beige{
+	color:  #6B5141;
+	font-family:"Sitka Subheading Semibold";
+	font-size: 28px;
+	
+}
+.button-blanco{
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 8px 40px;
+	border-color: #6B5141;
+	border-style: solid;
+	margin: 10px;
+	font-family:"Sitka Heading";
+	font-size: 20px;
+}
+
+.button-blanco:hover{
+	background-color: #6B5141;
+	color: #F6F6F6;
+}
+
+.button-blanco-inicio{
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 8px 40px;
+	border-color: #6B5141;
+	border-style: solid;
+	font-family:"Sitka Heading";
+	font-size: 20px;
+	margin-top: 85px;
+}
+
+.button-blanco-inicio:hover{
+	background-color:#A79C72;
+	color: #F6F6F6;
+}
+
+
+.titulo{
+	padding: 3% 0 0;
+	color: #fff;
+	font-family:"Sitka Subheading";
+	font-size: 16px;
+}
+.titulo2{
+	padding: 3% 0 0;
+	color: #6B5141;
+	font-family:"Sitka Subheading";
+	font-size: 16px;
+}
+.textbox-form{
+	text-align: left;
+	border-radius: 5px;
+	background-color: #F6F6F6;
+	width: 73% !important;
+	padding-left: 3%;
+	font-family: "Sitka Text ";
+	font-size: 17px;
+	border-style: none;
+}
+
+.textbox-form-1{
+	text-align: left;
+	border-radius: 5px;
+	background-color: #F6F6F6;
+	width: 87% !important;
+	padding-left: 3%;
+	font-family: "Sitka Text ";
+	font-size: 17px;
+	border-style: none;
+}
+
+
+#form{
+	background-color: #EDEDED;
+	padding-bottom: 4%;
+	padding-top: 3%;
+}
+
+.subtext-line{
+	width: 10%;
+	text-align: center;
+	margin: 0 auto;
+	border-width: 4px;
+	background-color: #6B5141; height: 3px; border: 0;
+	opacity: 90%;
+	margin-bottom: 50px;
+}
+
+.subtext-line-white{
+	width: 10%;
+	text-align: center;
+	margin: 0 auto;
+	border-width: 4px;
+	background-color: #F6F6F6; height: 3px; border: 0;
+	opacity: 90%;
+	margin-bottom: 50px;
+}
+
+.chekbox-info{
+	font-family: "Sitka Text ";
+	font-size: 16px;
+	padding-top: 2%;
+}
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+footer{
+	background-color: #FFF8DD;
+	color:#0D1923;
+	text-align: left;
+	padding: 25px;	
+}
+
+verde{
+padding-top: 10px;
+}
+
+.redondeado {
+text-align: left;
+border-radius: 15px;
+border-color: #6B5141;
+width: 65% !important;
+padding-left: 3%;
+font-family: "Sitka Text ";
+font-size: 17px;
+}
+
+.enviar{
+	text-align: left;
+	border-radius: 15px;
+	background-color: #DECC80;
+	border-color: #6B5141;
+	font-family: "Sitka Text ";
+    font-size: 17px;
+	
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+.contactanos{
+	font-family: "Sitka Display";
+	font-size: 18px;
+}
+
+h5{
+	font-family: "Sitka Subheading Semibold";
+	font-size: 22px;
+}
+
+.txt{
+	font-family: "Sitka Display";
+	font-size: 18px;
+	margin-bottom: 1%;
+}
+
+.registro-txt{
+	font-family: "Sitka Display";
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.info{
+	padding-bottom: 40px;
+}
+
+.linea{
+	border-width: 4px;
+	background-color: #6B5141; height: 3px; border: 0;
+	opacity: 90%;
+}
+
+.logofooter{
+	width: 130px;
+	padding-top: 10px;
+}
+
+.redes{
+	width: 40px;
+}
+
+.btn-outline-primary{
+	background-color: #DECC80;
+	border-radius: 100px;
+	border-color: #6B5141;
+	font-family: "Sitka Text ";
+    font-size: 17px;
+	/*width: 17% !important;*/	
+}
+
+.boton-footer{
+	background-color: #FFF8DD;
+	border: #FFFFFF;
+}
+footer i{
+	color:var(--color-cafe-oscuro);
+	font-size: 30px;
+}
+footer a{
+	text-decoration: none;
+	color: #0D1923;
+}

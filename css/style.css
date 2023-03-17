@@ -1,0 +1,287 @@
+@font-face {      
+font-family: "Sitka";      
+src: url('"../fonts/sitka-small-599.ttf"') format('truetype'), url('"../fonts/sitka-small-652.ttf"') format('truetype'),
+url('"../fonts/sitka-small-815.ttf"') format('truetype');    
+}
+
+body{
+	font-family: "Sitka", sans-serif;
+}
+/*Kimberly Mairena Kimberly Mairena Kimberly Mairena Kimberly Mairena Kimberly Mairena Kimberly Mairena*/
+
+/*Nav Bar*/
+.freshcoffeelogo{
+	width: 85px;
+	margin-left: 40%;
+}
+
+.navbar{
+	border-radius: 65px;
+}
+
+.bg-light{
+	background-color: #FFF8DD !important;
+}
+
+.nav-link{
+	font-size: 20px;
+	font-family: 'Sitka Subheading Semibold';
+	color: #918763;
+}
+.nav-item i{
+	font-size: 35px;
+}
+header{
+	position: absolute;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.ms-auto{
+	margin-right: 3%;
+}
+/*Nav Bar*/
+
+#inicio{
+	background-image:url("../img/fondo1.jpg");
+	background-size: cover;
+	padding-bottom: 5%;
+	
+}
+
+h1{
+	font-family:"Sitka Subheading Semibold";
+	color:#F6F6F6;
+	font-size: 64px;
+	padding-top: 300px;
+}
+
+h2{
+	font-family:'Sitka';
+	color:#F6F6F6;
+	font-size: 25px;	
+}
+
+
+.menu-text{
+	text-align: center;
+	padding-top: 95px;
+	color:#0D1923;
+	font-size: 45px;
+	font-family: "Sitka Subheading Semibold";
+}
+
+.postres-title{
+	text-align: center;
+	padding-top: 75px;
+	color:#f6f6f6;
+	font-size: 45px;
+	font-family: "Sitka Subheading Semibold";
+}
+
+.boton-icono{
+	background-color: #FFFFFF;
+	border: #FFFFFF;
+}
+
+.pastel-chocolate{
+	margin-top: 200px;
+}
+
+#products{
+	padding-bottom: 110px;
+}
+
+.card{
+	border: #000000;
+	margin: auto;
+}
+
+.nuestromenu{
+	margin: auto;
+}
+
+.iconosText{
+	font-family:"Sitka Subheading Semibold";
+	font-size: 30px;
+}
+
+.icono{
+	width: 140px;
+	margin: 0 auto;
+}
+
+.subtext-line{
+	width: 4%;
+	text-align: center;
+	margin: 0 auto;
+	border-width: 4px;
+	background-color: #6B5141; height: 3px; border: 0;
+	opacity: 90%;
+	margin-bottom: 50px;
+}
+
+.subtext-line-postres{
+	width: 4%;
+	text-align: center;
+	margin: 0 auto;
+	border-width: 4px;
+	background-color: #f6f6f6; height: 3px; border: 0;
+	opacity: 90%;
+	margin-bottom: 50px;
+}
+
+
+/*DANIEL GARAY DANIEL GARAY DANIEL GARAY DANIEL GARAY DANIEL GARAY DANIEL GARAY DANIEL GARAY DANIEL GARAY */
+
+#somos{
+	background-color: #FFF8DD;
+	background-size: cover;
+	padding-bottom: 100px;
+	padding-top: 100PX;
+}
+
+#cuadro{
+	background-color: #6B5141;
+	font-weight: 100;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	padding-left: 10px;
+}
+#somos h2{
+	text-align: center;
+	font-size: 34px;
+	color: #FFFFFF;
+	padding-top: 40px;
+}
+
+.somos{
+	padding: 10px 0;
+	text-align: left;
+	color: #FFF8DD;
+	font-size: 19px;
+	margin: 20px 35px;
+	font-family:"Sitka Display";
+}
+
+#somos img{
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	height: 530px;
+}
+
+.subtext-line-somos{
+	width: 10%;
+	text-align: center;
+	margin: 0 auto;
+	border-width: 4px;
+	background-color: #F6F6F6; height: 3px; border: 0;
+	opacity: 90%;
+	margin-bottom: 50px;
+}
+/*CARMEN SOSA CARMEN SOSA CARMEN SOSA CARMEN SOSA CARMEN SOSA CARMEN SOSA CARMEN SOSA CARMEN SOSA CARMEN SOSA*/
+
+#grid-fotos{
+	background-color: #918763;
+	padding-bottom: 4%;
+}
+
+/*MONSE LÓPEZ MONSE LÓPEZ MONSE LÓPEZ MONSE LÓPEZ MONSE LÓPEZ MONSE LÓPEZ MONSE LÓPEZ MONSE LÓPEZ MONSE LÓPEZ*/
+
+footer{
+	background-color: #FFF8DD;
+	color:#0D1923;
+	text-align: left;
+	padding: 25px;	
+}
+
+verde{
+padding-top: 10px;
+}
+
+.redondeado {
+text-align: left;
+border-radius: 15px;
+border-color: #6B5141;
+width: 65% !important;
+padding-left: 3%;
+font-family: "Sitka Text ";
+font-size: 17px;
+}
+
+.enviar{
+	text-align: left;
+	border-radius: 15px;
+	background-color: #DECC80;
+	border-color: #6B5141;
+	font-family: "Sitka Text ";
+    font-size: 17px;
+	
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+.contactanos{
+	font-family: "Sitka Display";
+	font-size: 18px;
+}
+
+h5{
+	font-family: "Sitka Subheading Semibold";
+	font-size: 22px;
+}
+
+.txt{
+	font-family: "Sitka Display";
+	font-size: 18px;
+	margin-bottom: 1%;
+}
+
+.registro-txt{
+	font-family: "Sitka Display";
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.info{
+	padding-bottom: 40px;
+}
+
+.linea{
+	border-width: 4px;
+	background-color: #6B5141; height: 3px; border: 0;
+	opacity: 90%;
+}
+
+.logofooter{
+	width: 130px;
+	padding-top: 10px;
+}
+
+.redes{
+	width: 40px;
+}
+
+.btn-outline-primary{
+	background-color: #DECC80;
+	border-radius: 100px;
+	border-color: #6B5141;
+	font-family: "Sitka Text ";
+    font-size: 17px;
+	/*width: 17% !important;*/	
+}
+
+.boton-footer{
+	background-color: #FFF8DD;
+	border: #FFFFFF;
+}
+footer i{
+	color:var(--color-cafe-oscuro);
+	font-size: 30px;
+}
+footer a{
+	text-decoration: none;
+	color: #0D1923;
+}

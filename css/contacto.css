@@ -1,0 +1,254 @@
+@font-face {      
+font-family: "Sitka";      
+src: url('"../fonts/sitka-small-599.ttf"') format('truetype'), url('"../fonts/sitka-small-652.ttf"') format('truetype'),
+url('"../fonts/sitka-small-815.ttf"') format('truetype');    
+}
+
+:root{
+	--color-cafe:#6B5141;
+}
+
+body{
+	font-family: 'Sitka Subheading';
+	background-color: #EDEDED;
+}
+.freshcoffeelogo{
+	width: 85px;
+	margin-left: 40%;
+}
+
+.navbar{
+	border-radius: 65px;
+}
+
+.bg-light{
+	background-color: #FFF8DD !important;
+}
+
+.nav-link{
+	font-size: 20px;
+	font-family: 'Sitka Subheading Semibold';
+	color: #918763;
+}
+.nav-item i{
+	font-size: 35px;
+}
+header{
+	position: absolute;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.ms-auto{
+	margin-right: 3%;
+}
+
+#color{
+	background-color: #A79C72;
+	padding: 100px;
+}
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+.menu-text{
+	text-align: center;
+	padding-top: 95px;
+	color:#0D1923;
+	font-size: 45px;
+	font-family: "Sitka Subheading Semibold";
+}
+.subtext-line{
+	width: 4%;
+	text-align: center;
+	margin: 0 auto;
+	border-width: 4px;
+	background-color: #6B5141; height: 3px; border: 0;
+	opacity: 90%;
+	margin-bottom: 50px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+:root{
+	--color-cafe:#6B5141;
+}
+
+#contacto h1{
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 40px;
+}
+
+#contacto hr{
+	width: 66px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+#contacto{
+	padding-bottom: 15px;
+}
+#contacto h2{
+	font-size: 40px;
+}
+#contacto h6{
+	font-size: 19px;
+	padding: 15px 0;
+}
+.text-formulario{
+	background-color: #fff;
+	width: 564px;
+	height: 750px;
+	border-radius: 12px;
+	border: 2px solid rgba(58,50,38,1.00);
+	padding: 30px 0;
+}
+
+.text-formulario h3{
+	padding: 30px 0;
+	
+}
+
+.form-control{
+	background-color: #EDEDED;
+	padding: 0.4rem 0.5rem;
+	color: #5B5B5B;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.form-group{
+	text-align: left;
+}
+form label{
+	padding: 10px 0;
+	font-weight:bold;
+	display:inline-block;
+}
+
+.btn.btn-outline-secondary{
+	padding: 10px 45px;
+	border: 2px solid rgba(58,50,38,1.00);
+}
+.btn-outline-secondary:hover{
+	background-color: var(--color-cafe);
+	color: #fff;
+}
+#redes-sociales{
+	background-color: #fff;
+	border-radius: 19px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 70%;
+}
+
+.formulario{
+	padding-bottom: 5%;
+}
+i{
+	color: var(--color-cafe);
+	font-size: 30px;
+}
+
+textarea{
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display: block;
+	text-align: left !important;
+}
+/* ----------------------------------------------------------------------------------------------------------------*/
+footer{
+	background-color: #FFF8DD;
+	color:#0D1923;
+	text-align: left;
+	padding: 25px;	
+}
+
+verde{
+padding-top: 10px;
+}
+
+.redondeado {
+text-align: left;
+border-radius: 15px;
+border-color: #6B5141;
+width: 65% !important;
+padding-left: 3%;
+font-family: "Sitka Text ";
+font-size: 17px;
+}
+
+.enviar{
+	text-align: left;
+	border-radius: 15px;
+	background-color: #DECC80;
+	border-color: #6B5141;
+	font-family: "Sitka Text ";
+    font-size: 17px;
+	
+}
+
+
+
+.contactanos{
+	font-family: "Sitka Display";
+	font-size: 18px;
+}
+
+h5{
+	font-family: "Sitka Subheading Semibold";
+	font-size: 22px;
+}
+
+.txt{
+	font-family: "Sitka Display";
+	font-size: 18px;
+	margin-bottom: 1%;
+}
+
+.registro-txt{
+	font-family: "Sitka Display";
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.info{
+	padding-bottom: 40px;
+}
+
+.linea{
+	border-width: 4px;
+	background-color: #6B5141; height: 3px; border: 0;
+	opacity: 90%;
+}
+
+.logofooter{
+	width: 130px;
+	padding-top: 10px;
+}
+
+.redes{
+	width: 40px;
+}
+
+.btn-outline-primary{
+	background-color: #DECC80;
+	border-radius: 100px;
+	border-color: #6B5141;
+	font-family: "Sitka Text ";
+    font-size: 17px;
+	/*width: 17% !important;*/	
+}
+
+.boton-footer{
+	background-color: #FFF8DD;
+	border: #FFFFFF;
+}
+footer i{
+	color:var(--color-cafe-oscuro);
+	font-size: 30px;
+}
+footer a{
+	text-decoration: none;
+	color: #0D1923;
+}
+
